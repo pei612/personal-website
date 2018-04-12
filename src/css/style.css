@@ -1,0 +1,167 @@
+body {
+}
+
+.menu-bar {
+  position: fixed;
+  width: 100%;
+  height: 87px;
+  background-color: white;
+}
+
+.logo {
+  padding-top: 22px;
+  padding-left: 7px;
+  float: left;
+}
+
+.menu {
+  float: right;
+  margin-right: 45px;
+}
+
+.main {
+  padding-top: 87px;
+}
+
+.section {
+  margin-bottom: 180px;
+}
+
+.heading {
+  font-size: 26pt;
+  font-weight: bold;
+  color: #08d389;
+}
+
+.footer {
+  text-align: right;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.footer a {
+  color: #08d389;
+}
+
+.footer a:hover {
+  color: #08d389;
+}
+
+/* projects */
+#projects .heading {
+  text-align: center;
+}
+
+#projects .content img {
+  width: 100%;
+}
+
+#projects .main .col-sm-6 {
+  padding: 40px;
+}
+
+.project-list {
+  margin-bottom: 200px;
+}
+
+.article-list {
+  margin-bottom: 220px;
+}
+
+.see-more {
+  text-align: right;
+}
+
+.see-more a {
+  color: #08d389;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+/* project details */
+#project-details .main .content {
+  width: 100%;
+}
+
+/* about me */
+.self-introduction .p1 {
+  min-height: 460px;
+}
+
+.self-introduction .heading {
+  font-size: 36pt;
+}
+
+.self-introduction .content {
+  margin-top: 45px;
+}
+
+.map {
+  height: 257px
+}
+
+.my-life .pic {
+  width: 100%;
+}
+
+.my-life .col-sm-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.my-belief .content {
+  background-image: url("../img/my-belief.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 100px 80px;
+  font-size: 33pt;
+}
+
+.my-belief .quote {
+  text-align: right;
+}
+
+#about-me .footer {
+  text-align: center;
+  font-size: 14pt;
+}
+
+#about-me .footer .link {
+  display: inline-block;
+}
+
+.email {
+  margin-right: 100px;
+}
+
+.linkedin, .behance {
+  margin-right: 60px;
+}
+
+/* contact */
+.name .heading {
+  font-size: 48pt;
+}
+
+#contact .title {
+  font-size: 20pt;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.chat {
+  font-size: 18pt;
+  color: #aeaeae;
+  text-align: center;
+}
+
+#contact .main .content p {
+  font-size: 20pt;
+  margin-bottom: 30px;
+}
+
+#contact .footer {
+  text-align: right;
+  font-size: 24pt;
+  font-weight: bold;
+}
