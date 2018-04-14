@@ -3,6 +3,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="javascript/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEI4GTTMl82_xZfe2a35lh5BWFmCEBxXs&callback=initMap">
+    </script>
   </head>
   <body id="about-me">
 
@@ -11,51 +14,60 @@
         <a href="index.html"><img src="img/logo.png"></a>
       </div>
       <div class="menu">
-        <img src="img/menu.png">
+        <div class="cover">
+          <img src="img/menu.png">
+        </div>
+        <div class="items">
+          <ul>
+            <li><a href="index.html">Projects</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div class="main container">
-      <section class="self-introduction section">
+      <section class="self-introduction">
         <div class="heading">
           About Me
         </div>
         <div class="content">
-          <div class="p1">
+          <div class="text">
             <div class="pull-right">
               <img src="img/me.png">
             </div>
             <div>
-              <p>"Beyond visual design, I can do deeper!"</p>
+              <p class="p1">"Beyond visual design, I can do deeper!"</p>
               <p>Hey, I'm Pei Liang. I am a Graduate student at Pratt Institute studying Information Experience Design.</p>
               <p>I am working on projects that transform digital processes into analog interfaces and interactions.</p>
-              <p>I am a <span>UX designer</span> because I love to think from other people's perspectives. Find their pain points and solve problems with my design skills.</p>
+              <p>I am a <span class="italic bold">UX designer</span> because I love to think from other people's perspectives. Find their pain points and solve problems with my design skills.</p>
             </div>
           </div>
           <div>
             <a href="data/resume.pdf" download>
-              <button>Download Resume</button>
+              <button class="btn btn-primary download">Download Resume</button>
             </a>
           </div>
         </div>
       </section>
 
-      <section class="where-i-lived section">
+      <section class="where-i-lived">
         <div class="heading">
           Where I lived
         </div>
         <div class="content">
-          <div class="map">
-            Google Map
+          <div id="my-map" class="map">
+            
           </div>
         </div>
       </section>
 
-      <section class="my-life section">
+      <section class="my-life">
         <div class="heading">
           My Life
         </div>
-        <div class="contnet row">
+        <div class="content row">
           <div class="col-sm-4">
             <img class="pic" src="img/out-door-sports.png">
           </div>
@@ -68,16 +80,16 @@
         </div>
       </section>
       
-      <section class="my-belief section">
+      <section class="my-belief">
         <div class="heading">
           My Belief
         </div>
         <div class="content">
-          <div>
-            <p>"Look beyond surface-level qualities to assess UX value. A design that looks (or sounds) good does not mean that it is. Good websites contain engaging features that help people accomplish their goals.”</p>
+          <div class="bold">
+            <p><span class="white">"Look beyond surface-level qualities to assess UX value.</span><br/> <span class="underline">A design that looks (or sounds) good does not mean that it is.</span> <span class="white">Good websites contain engaging features that help people accomplish their goals."</span></p>
           </div>
           <div class="quote">
-            <p>- Don Norman & Jacob Nielson</p>
+            <p class="bold">- Don Norman & Jacob Nielson</p>
           </div>
         </div>
       </section>

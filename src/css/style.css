@@ -1,4 +1,5 @@
 body {
+  
 }
 
 .menu-bar {
@@ -17,13 +18,57 @@ body {
 .menu {
   float: right;
   margin-right: 45px;
+  background-color: #08d389;
+}
+
+.menu .cover {
+  display: block;
+  padding: 13px 15px 49px 15px;
+}
+
+.menu .items {
+  display: none;
+}
+
+.menu .items a {
+  color: white;
+}
+
+.menu .items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu .items li {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.menu .items a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.menu:hover {
+  min-height: 5px;
+  margin-right: 20px;
+}
+
+.menu:hover .cover {
+  display: none;
+}
+
+.menu:hover .items {
+  display: block;
+  font-size: 16pt;
+  padding: 20px 14px 20px 14px;
 }
 
 .main {
   padding-top: 87px;
 }
 
-.section {
+section {
   margin-bottom: 180px;
 }
 
@@ -31,6 +76,7 @@ body {
   font-size: 26pt;
   font-weight: bold;
   color: #08d389;
+  text-align: center;
 }
 
 .footer {
@@ -47,11 +93,57 @@ body {
   color: #08d389;
 }
 
-/* projects */
-#projects .heading {
-  text-align: center;
+.name-card {
+  margin-bottom: 100px;  
 }
 
+.name.heading {
+  font-size: 48pt;
+  text-align: left;
+}
+
+.profession {
+  font-size: 20pt;
+  font-weight: bold;
+  position: relative;
+}
+
+.profession span {
+  margin-left: 15px;
+}
+
+.profession:before {
+  content: ""; 
+  width: 8px;
+  height: 26px;
+  background-color: #08d389;
+  position: absolute;
+  left: 3px;
+  top: 4px;
+}
+
+/** font */
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* projects */
 #projects .content img {
   width: 100%;
 }
@@ -84,15 +176,33 @@ body {
 }
 
 /* about me */
-.self-introduction .p1 {
-  min-height: 460px;
+#about-me .main .heading {
+  text-align: left;
 }
 
-.self-introduction .heading {
+#about-me .main .content {
+  margin-top: 30px;
+}
+
+.self-introduction .text {
+  min-height: 460px;
+  font-size: 16pt;
+}
+
+.self-introduction .text .p1 {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.self-introduction .text p {
+  margin-bottom: 20px;
+}
+
+#about-me .main .self-introduction .heading {
   font-size: 36pt;
 }
 
-.self-introduction .content {
+#about-me .main .self-introduction .content {
   margin-top: 45px;
 }
 
@@ -114,7 +224,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 100px 80px;
-  font-size: 33pt;
+  font-size: 26pt;
 }
 
 .my-belief .quote {
@@ -138,21 +248,28 @@ body {
   margin-right: 60px;
 }
 
+.btn.download {
+  height: 34px;
+  border: none;
+  background-color: #08d389;
+  box-shadow: 0 2px 4px 0 #c6c3c3;
+}
+
+.btn.download:hover {
+  background-color: #04a778;
+}
+
 /* contact */
-.name .heading {
-  font-size: 48pt;
-}
-
-#contact .title {
-  font-size: 20pt;
-  font-weight: bold;
-  margin-bottom: 100px;
-}
-
 .chat {
   font-size: 18pt;
   color: #aeaeae;
   text-align: center;
+}
+
+#contact .main .content a {
+  font-style: italic;
+  font-weight: bold;
+  color: #08d389;
 }
 
 #contact .main .content p {
