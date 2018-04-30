@@ -293,7 +293,7 @@ section {
   position: relative;
   height: 500px;
   width: 100%;
-  overflow-y: hidden;
+  overflow: hidden;
   font-size: 40pt;
   margin-bottom: 200px;
 }
@@ -334,4 +334,5 @@ section {
 #slides .image-container{
   padding: 0 70px;
   height: 100%;
+  overflow: hidden;
 }
