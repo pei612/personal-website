@@ -51,3 +51,21 @@ function createMarker(location, map) {
   
   return marker;
 }
+
+// Slides
+var currentIndex = 0;
+function show(n) {
+  var images = $("#slides .image");
+  $(images[currentIndex]).hide();
+  
+  currentIndex = currentIndex + n;
+  $("#slides .slides-button").attr("disabled", false);
+  if (currentIndex < 0) {
+    currentIndex = 0;
+    $("#slides .left").attr("disabled", true);
+  } else if (currentIndex >= images.length) {
+    currentIndex = images.length - 1;
+    $("#slides .right").attr("disabled", true);
+  }
+  $(images[currentIndex]).show();
+}

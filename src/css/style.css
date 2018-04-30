@@ -68,6 +68,10 @@ body {
   padding-top: 87px;
 }
 
+.main .container {
+  overflow-x: visible;
+}
+
 section {
   margin-bottom: 180px;
 }
@@ -281,4 +285,53 @@ section {
   text-align: right;
   font-size: 24pt;
   font-weight: bold;
+}
+
+
+/* slides */
+#slides {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  overflow-y: hidden;
+  font-size: 40pt;
+  margin-bottom: 200px;
+}
+
+#slides .image {
+  height: 100%;
+}
+
+#slides .slides-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
+  background-color: transparent;
+}
+
+#slides .slides-button:hover {
+  cursor: pointer;
+}
+
+#slides button:disabled {
+  color: darkgrey;
+}
+
+#slides .left {
+  left: 0;
+}
+
+#slides .right {
+  right: 0;
+}
+
+#slides .image {
+  display: none;
+}
+
+#slides .image-container{
+  padding: 0 70px;
+  height: 100%;
 }

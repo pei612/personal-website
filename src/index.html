@@ -3,6 +3,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript/script.js"></script>
   </head>
   <body id="projects">
 
@@ -97,6 +100,22 @@
           <a href="javascript:(void);"><span>SEE MORE</span></a>
         </div>
       </section>
+      
+      <div id="slides">
+        <button class="slides-button left" onclick="show(-1)">
+          <i class="fas fa-angle-double-left"></i>
+        </button>
+        <button class="slides-button right" onclick="show(1)">
+          <i class="fas fa-angle-double-right"></i>
+        </button>
+        <div class="image-container">
+          <img class="image" src="img/slides/1.png" style="display:block;">
+          <img class="image" src="img/slides/2.png">
+          <img class="image" src="img/slides/3.png">
+          <img class="image" src="img/slides/4.png">
+          <img class="image" src="img/slides/4.png">
+        </div>
+      </div>
       
       <div class="footer">
         <a href="contact.html">
