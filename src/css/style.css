@@ -309,6 +309,7 @@ section {
   margin: auto;
   border: none;
   background-color: transparent;
+  z-index: 1000;
 }
 
 #slides .slides-button:hover {
@@ -329,9 +330,14 @@ section {
 
 #slides .image {
   display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 #slides .image-container{
+  position: relative;
   padding: 0 70px;
   height: 100%;
   overflow: hidden;
