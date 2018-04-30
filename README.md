@@ -5,10 +5,12 @@ This project contains 4 pages including: "homepage", "project detail", "about me
 
 On all 4 pages, cilck on the logo will lead to the homepage, this feature is already finished. 
 
-On the "homepage", when user hovers on each picture under the section of projects, The layout is already finished--font size, picture sizes are defined, each picture's size are definded, when click on the picture of  "content strategy", it will lead to the project detail page. 
+On the "homepage", when users click on the first picture, it will lead to the project detail page. Under sections of "projects"and "articles", there is a slide shows my other artworks, users can click buttons besides the slides to go to either the next pictures  At the bottom of the project detail page, users can click "contact me" to the page of "Contact me".
 
-On the "about me" page, the picture sizes, font family, font sizes have been defined, the layout of each sections have also been defined. The download resume feature has not been finished. Hover over the menu has not been finished. The Google Map API which will show key words that describes the location I lived before has not been done yet. The color of fonts under "My belief" section hasn't been adjusted yet.
+On the "Contact me" page, when users click on "shoot me a message" it will jump out a email box which can allow them to write me a message ther. By clicking on "dribble" and "linkedin" , users to go to corresponding pages. At the bottom of this page, users can click "About me" to browse information about myself.  
 
-On the "Contact me" page, the font size have been finished, the feature of jumping out a email box by clicking on the bold italic words"shoot me a message" toand check my dribble projects and linkedin profile by clicking on "dribble" and "linkedin" to go to corresponding pages have not been finished yet.
+
+On the "about me" page, Users can click "download resume" to download my resume.pdf. Under this section, the Google Map API  will show key words that describes the location I have lived before. The color of fonts under "My belief" section hasn't been adjusted yet.
+
 
 Lint to my website: http://mysite.pratt.edu/~pliang/index.html
